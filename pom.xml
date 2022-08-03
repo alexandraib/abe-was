@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>abe-was</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>14</maven.compiler.source>
+        <maven.compiler.target>14</maven.compiler.target>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>jna</groupId>
+            <artifactId>jna</artifactId>
+            <version>3.2.5</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/src/main/resources/jna-3.2.5.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>jpbc-api</groupId>
+            <artifactId>jpbc-api</artifactId>
+            <version>2.0.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/src/main/resources/jpbc-api-2.0.0.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>jpbc-crypto</groupId>
+            <artifactId>jpbc-crypto-2.0.0</artifactId>
+            <version>2.0.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/src/main/resources/jpbc-crypto-2.0.0.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>jpbc-mm</groupId>
+            <artifactId>jpbc-mm</artifactId>
+            <version>2.0.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/src/main/resources/jpbc-mm-2.0.0.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>jpbc-pbc</groupId>
+            <artifactId>jpbc-pbc</artifactId>
+            <version>2.0.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/src/main/resources/jpbc-pbc-2.0.0.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>jpbc-plaf</groupId>
+            <artifactId>jpbc-plaf</artifactId>
+            <version>2.0.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/src/main/resources/jpbc-plaf-2.0.0.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>RELEASE</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
+
+</project>
